@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".JobDetailsActivity">
+    <include layout="@layout/toolbar"
+        android:id="@+id/detail_toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/black"
+        android:text="Job Title "
+        android:id="@+id/details_job_title"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#FF6B0E96"
+        android:text="DD MM, YYYY"
+        android:id="@+id/details_job_post_date"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="5"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/black"
+        android:text="Description "
+        android:id="@+id/details_job_description"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/black"
+        android:text="Skills Required: "
+        android:id="@+id/details_job_skill"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ffbc0b0f"
+        android:text="Salary: "
+        android:id="@+id/details_job_salary"
+        />
+
+
+</LinearLayout>

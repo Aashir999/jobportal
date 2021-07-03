@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "201493363124",
+    "firebase_url": "https://jobortal-f39da.firebaseio.com",
+    "project_id": "jobortal-f39da",
+    "storage_bucket": "jobortal-f39da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201493363124:android:eb4f36c8a98da1f65b5ae1",
+        "android_client_info": {
+          "package_name": "com.example.jobortal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201493363124-uqu29c20briqc00n35rf17ula6c7t4kb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jobortal",
+            "certificate_hash": "124bfe4e1413cefe1d3658309c278f5c4e3c97d8"
+          }
+        },
+        {
+          "client_id": "201493363124-o9gldo57b2h8glmmaordsq9kh25nub22.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFknf2NrBfU9--N__M79XIF8kOkVHlurw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201493363124-o9gldo57b2h8glmmaordsq9kh25nub22.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
